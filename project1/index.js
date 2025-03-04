@@ -12,9 +12,9 @@ app.get("/", function(req, res){
     res.render("index");
 });
 
-app.get("/profile/abhi", function(req, res){
-    res.render("chal raha hai");
-})
+// app.get("/profile/:username", function(req, res){
+//     res.send(`welcome, ${req.params.username}`);
+// })
 
 app.listen(3000, function(){
     console.log("it is running on port 3000");
